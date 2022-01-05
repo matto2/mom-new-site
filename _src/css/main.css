@@ -1031,24 +1031,61 @@ caption {
   font-family: 'Yeseva One', cursive;
   font-size: 3rem;
   --minFontSize: 28px;
-  --maxFontSize: 100px;
+  --maxFontSize: 104px;
   --scaler: 8vw;
   font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
   }
 
 img.mom {
-  width: 375px;
+  /* width: 375px; */
   border-radius: 30px;
+  width: 100%;
+  height: auto;
 } 
 
 
 .parent {
   display: grid;
-  grid-template-columns: 1fr 380px;
+  grid-template-columns: minmax(370px, 600px) 370px;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
   
-  .div1 { grid-area: 1 / 1 / 2 / 2; }
+  .div1 { grid-area: 1 / 1 / 2 / 2;
+          min-width: 370px; }
   .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+  .card {
+    /* background-color: dodgerblue;
+    color: white; */
+    /* padding: 1rem; */
+    height: auto;
+  }
+
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(268px, 476px));
+    }
+
+  /* @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+   */
+
+   .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .intro {
+    font-size: 1.16rem;
+  }
+
