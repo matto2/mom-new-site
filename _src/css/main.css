@@ -1098,7 +1098,7 @@ nav {
 
 ul.nav {
   display: grid;
-  grid-template-columns: repeat(3, 10rem);
+  grid-template-columns: 80px 120px 120px 1fr;
   list-style: none;
   margin-right: 1rem;
   font-family: 'Nunito', sans-serif;
