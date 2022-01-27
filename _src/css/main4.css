@@ -1,0 +1,79 @@
+body {
+  background: antiquewhite;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.container {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: gold;
+}
+header {
+  background-color: antiquewhite;
+}
+
+main {
+  background-color: antiquewhite;
+  min-height: 100vh;
+
+}
+
+@media (min-width: 960px) {
+.intro {
+  display: grid;
+  grid-template-columns: 31rem 20rem;
+  gap: 1rem;
+}
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: span 2 / auto;
+  background-color: rgb(255, 147, 47);
+}
+
+.mom {
+  /* max-width: 28rem; */
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  min-width: 28rem;
+}
+
+.intro {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+nav { 
+  display: grid;
+}
+
+ul.nav {
+  display: grid;
+  grid-template-columns: 80px 120px 120px 1fr;
+  list-style: none;
+  margin-right: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #473D37;
+  margin-left: -2.5rem;
+}
+
+ul.nav a {
+  color: #473D37;
+}
+
+ul.nav a:hover {
+  color: #017093;
+}
+
+ul.nav .active a {
+  font-weight: 900;
+  color: #017093;
+  text-decoration: none;
+  /* background-color: gold; */
+  }

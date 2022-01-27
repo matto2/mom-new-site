@@ -2,13 +2,13 @@
 title: Caring
 ---
 
- <nav class="main-nav">
+<nav>
     <ul class="nav">
-      <li><a href="">Nav 1</a></li>
-      <li><a href="">Nav 2</a></li>
-      <li><a href="">Nav 3</a></li>
+      <li><a href="/">Home</a></li>
+      <li class="active"><a href="/the-songs/">The Songs</a></li>
+      <li><a href="/sheet-music">Sheet Music</a></li>
     </ul>
-  </nav>
+</nav>
 
 <h2 class="song-title">{{title}}</h2>
 

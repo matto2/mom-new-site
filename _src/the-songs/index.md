@@ -1,7 +1,9 @@
 ---
-layout: base.njk
+layout: base
 title: The Songs
 ---
+
+<div class="container">
 <nav>
     <ul class="nav">
       <li><a href="/">Home</a></li>
@@ -10,4 +12,12 @@ title: The Songs
     </ul>
 </nav>
 
-  # hey
+# The Songs
+
+  <ul>
+{% for song in collections.songs %}
+  <li><a href="{{ song.url }}">{{ song.data.title }}</a></li>
+{% endfor %}
+</ul>
+
+</div>

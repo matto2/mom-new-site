@@ -1,0 +1,82 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body.center {
+  max-width: 100ch;
+  margin: 0 auto;
+}
+
+#page {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: 
+                       "main"
+                       "foot";
+  grid-template-rows: 1fr 3rem;
+  grid-template-columns: 1fr;
+}
+
+#page > header {
+  grid-area: head;
+  background-color: #8ca0ff;
+}
+
+#page > nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+
+#page > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+#page > footer {
+  grid-area: foot;
+  background-color: #8cffa0;f;
+  border-top: solid .2rem #dddddd;
+}
+
+nav { 
+  margin-left: -2.2rem;
+}
+
+ul.nav {
+  display: grid;
+  grid-template-columns: 80px 120px 120px 1fr;
+  list-style: none;
+  margin-right: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #473D37;
+}
+
+ul.nav a {
+  color: #473D37;
+}
+
+ul.nav a:hover {
+  color: #017093;
+}
+
+ul.nav .active a {
+  font-weight: 900;
+  color: #017093;
+  text-decoration: none;
+  /* background-color: gold; */
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+ 
+

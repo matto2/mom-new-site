@@ -1,0 +1,238 @@
+:root {
+  --main-bg-color: antiquewhite;
+  --main-font: 'Nunito', sans-serif;
+  --main-font-italic: 'Nunito-Italic', sans-serif;
+  --main-text-color: #555;
+  --link-color: #0272A2;
+  --link-color-light: #5b95ad;
+  --link-darker: #b33000;
+  --text-ital: 0;
+  --orangered: orangered;
+  --darkorange: darkorange;
+}
+
+body {
+  background: var(--main-bg-color);
+  margin: 0 1rem 0 1rem;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito-VariableFont_wght.ttf') format("truetype-variations");
+  font-weight: 1 999;
+} 
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito-Italic-VariableFont_wght.ttf') format("truetype-variations");
+  font-style: oblique 0deg 20deg;
+}  
+
+em {
+  --text-ital: 1;
+}  
+
+body { 
+background: var(--main-bg-color);
+color: var(--main-text-color);
+font-family: var(--main-font);
+font-variation-settings: 'ital' var(--text-ital);
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+section, footer {
+  padding: 10px;
+  margin: 0;
+}
+
+section {
+  flex: 1;
+  background: var(--main-bg-color);
+}
+
+.container {
+  max-width: 60rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--main-bg-color);
+}
+
+footer {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+}  
+
+nav { 
+  display: grid;
+}
+
+ul.nav {
+  display: grid;
+  grid-template-columns: 80px 120px 120px 1fr;
+  list-style: none;
+  margin-right: 1rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #473D37;
+  margin-left: -2.5rem;
+  margin-top: 0;
+}
+
+ul.nav a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+ul.nav a:hover {
+  color: var(--link-darker);
+  text-decoration: underline;
+}
+
+ul.nav .active a {
+  font-weight: bolder;
+  color: var(--main-text-color);
+  text-decoration: none;
+  /* background-color: gold; */
+  }
+
+      blockquote{
+        display:block;
+        background: antiquewhite;
+        padding: 15px 20px 15px 45px;
+        margin: 0 0 20px;
+        position: relative;
+        
+        /*Font*/
+        /* font-family: Georgia, serif; */
+        font-size: 16px;
+        line-height: 1.2;
+        color: var(--main-text-color);
+        text-align: left;
+        
+        /*Borders - (Optional)*/
+        border-left: 15px solid var(--link-color-light);
+        /* border-right: 2px solid #c76c0c; */
+        
+        /*Box Shadow - (Optional)*/
+        /* -moz-box-shadow: 2px 2px 15px #ccc;
+        -webkit-box-shadow: 2px 2px 15px #ccc;
+        box-shadow: 2px 2px 15px #ccc; */
+      }
+      
+      blockquote::before{
+        content: "\201C"; /*Unicode for Left Double Quote*/
+        
+        /*Font*/
+        font-family: Georgia, serif;
+        font-size: 60px;
+        font-weight: bold;
+        color: var(--darkorange);
+        
+        /*Positioning*/
+        position: absolute;
+        left: 10px;
+        top:5px;
+      }
+      
+      blockquote::after{
+        /*Reset to make sure*/
+        content: "";
+      }
+      
+      blockquote a{
+        text-decoration: none;
+        background: #eee;
+        cursor: pointer;
+        padding: 0 3px;
+        color: #c76c0c;
+      }
+      
+      blockquote a:hover{
+       color: #666;
+      }
+      
+      blockquote em{
+        font-style: italic;
+        line-height: 1.4rem;
+      }
+
+      hr {
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    #intro-container {
+      display: grid;
+      grid-gap: 2rem;
+      grid-template-columns: 1fr 600px;
+      max-width: 60rem;
+      margin-left: auto;
+      margin-right: auto;
+      grid-template-areas:
+        "intro mompic";
+    }
+    
+    /* @media (max-width: 1000px) { */
+      #intro-container {
+        grid-template-columns: 1fr 32rem;
+        grid-template-areas:
+          "intro mompic"
+        }
+    /* } */
+    
+    @media (max-width: 60rem) {
+      #intro-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+          "mompic"
+          "intro"
+      }
+    }
+    
+    .mompic, .intro {
+      font-size: 1.2rem;
+      line-height: 140%;
+      margin-top: 0;
+      padding-top: 0;
+      font-weight: normal;
+    }
+    
+    
+    .mompic {
+      /* background: tomato; */
+      height: auto;
+      grid-area: mompic;
+    }
+    
+    .intro {
+      /* background: deeppink; */
+      height: auto;
+      grid-area: intro;
+      margin-top: 0;  }
+  
+    p {
+        display: block;
+        vertical-align: top;  }
+    
+    .mom {
+      /* max-width: 28rem; */
+      border-radius: 30px;
+      width: 100%;
+      height: auto;
+      min-width: 28rem;
+    }
+  
