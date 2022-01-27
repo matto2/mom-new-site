@@ -44,7 +44,7 @@ main {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  margin: 0;
+  margin: 1rem 0 0 0;
 }
 
 section, footer {
