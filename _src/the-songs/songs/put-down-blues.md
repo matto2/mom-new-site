@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Caring
+title: Put Down Blues
 ---
 
 <nav>

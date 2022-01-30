@@ -21,3 +21,18 @@ title: The Songs
 </ul>
 
 </div>
+
+<div id="song-table">
+     <div class="songs">
+<h2 class="song-titles"><a href="/the-songs/songs/caring">Caring</a></h2>
+    </div>
+        <div class="buttons">
+            <button class="round-button">Listen</button>
+            <button class="round-button">Buy Sheet Music</button>
+    </div>
+   </div> 
+
+
+
+    
+       

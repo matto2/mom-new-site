@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Caring
+title: Shine Like a Star
 ---
 
 <nav>

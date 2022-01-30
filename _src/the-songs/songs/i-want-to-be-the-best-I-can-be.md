@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Caring
+title: I Want To Be the Best I Can Be
 ---
 
 <nav>

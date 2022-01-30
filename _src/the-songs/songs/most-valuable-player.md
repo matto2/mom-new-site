@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Caring
+title: Most Valuable Player
 ---
 
 <nav>
