@@ -9,7 +9,7 @@
   --text-ital: 0;
   --orangered: orangered;
   --darkorange: darkorange;
-  --light-gray: #bbbbbb;
+  --light-gray: #aaa;
 }
 
 body {
@@ -170,11 +170,8 @@ ul.nav .active a {
       }
 
       hr {
-        border: 0;
-        height: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.3);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    }
+        border-top: solid 1px var(--light-gray);
+          }
 
     #intro-container {
       display: grid;
@@ -249,7 +246,7 @@ ul.nav .active a {
       margin-right: auto;
       grid-template-areas:
         "songs buttons";
-        border-bottom: solid .5px var(--light-gray);
+        border-bottom: solid 1px var(--light-gray);
     }
     
     /* @media (max-width: 1000px) { */

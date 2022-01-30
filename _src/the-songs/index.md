@@ -27,8 +27,8 @@ title: The Songs
 <h2 class="song-titles"><a href="/the-songs/songs/caring">Caring</a></h2>
     </div>
         <div class="buttons">
-            <button class="round-button">Listen</button>
-            <button class="round-button">Buy Sheet Music</button>
+            <a href="/the-songs/songs/caring"><button class="round-button">Listen</button></a>
+            <a href="https://buy.stripe.com/3cs9DofZQ7Ix8H6288"><button class="round-button">Buy Sheet Music</button></a>
     </div>
    </div> 
 
