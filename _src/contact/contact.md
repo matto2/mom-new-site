@@ -3,6 +3,7 @@ layout: base
 title: contact
 ---
 
+
 <nav>
     <ul class="nav">
       <li><a href="/">Home</a></li>
@@ -11,7 +12,7 @@ title: contact
     </ul>
   </nav>
 
-<div class="form"></div> 
+<div class="form">
 <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name <input type="text" name="name" /></label>   
