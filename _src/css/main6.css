@@ -435,8 +435,23 @@ input[type=submit]:hover {
 
 a {
   color: var(--link-color);
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--link-darker);
 }
+
+.block {
+  display: grid;
+  grid-template-columns: 2rem 10rem ;
+  align-items: center;
+  font-size: bigger;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+a.block {
+  text-decoration: none;
+} 

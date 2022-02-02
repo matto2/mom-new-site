@@ -8,7 +8,7 @@ title: The Songs
     <ul class="nav">
       <li><a href="/">Home</a></li>
       <li class="active"><a href="/the-songs/">The Songs</a></li>
-      <li><a href="/sheet-music">Sheet Music</a></li>
+      <li><a href="/contact">Contact</a></li>
     </ul>
 </nav>
 

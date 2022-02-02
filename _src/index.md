@@ -6,7 +6,7 @@ title: HEY!
     <ul class="nav">
       <li class="active"><a href="/">Home</a></li>
   <li><a href="/the-songs/">The Songs</a></li>
-      <li><a href="">Sheet Music</a></li>
+      <li><a href="/contact">Contact</a></li>
     </ul>
 </nav>
 
