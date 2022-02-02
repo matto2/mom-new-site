@@ -34,3 +34,4 @@ title: contact
   </p>
 </form>
 </div>
+<p>Or send regular <a href="mailto:mattosurf@gmail.com?subject=minnie%20music">email</a>
