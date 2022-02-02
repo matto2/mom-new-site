@@ -383,117 +383,51 @@ a.full-button {
  * Forms
  */
 
- .form {
-   max-width: 60rem !important;
- }
-
- input {
-   max-width: 60rem;
- }
-
-[type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea {
-  display: block;
-  border: 1px solid #dedede;
-  border-radius: 4px;
-  padding: 0.75rem;
-  outline: none;
-  background: var(--white);
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
+/* Style inputs */
+input[type=text], select {
   width: 100%;
-  max-width: 60rem;
-  line-height: 1;
-  min-width: 16rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-[type=color]:hover, [type=date]:hover, [type=datetime]:hover, [type=datetime-local]:hover, [type=email]:hover, [type=month]:hover, [type=number]:hover, [type=password]:hover, [type=search]:hover, [type=tel]:hover, [type=text]:hover, [type=url]:hover, [type=week]:hover, [type=time]:hover, select:hover, textarea:hover {
-  border: 1px solid #c5c5c5;
-}
-
-[type=color]:focus, [type=color]:active, [type=date]:focus, [type=date]:active, [type=datetime]:focus, [type=datetime]:active, [type=datetime-local]:focus, [type=datetime-local]:active, [type=email]:focus, [type=email]:active, [type=month]:focus, [type=month]:active, [type=number]:focus, [type=number]:active, [type=password]:focus, [type=password]:active, [type=search]:focus, [type=search]:active, [type=tel]:focus, [type=tel]:active, [type=text]:focus, [type=text]:active, [type=url]:focus, [type=url]:active, [type=week]:focus, [type=week]:active, [type=time]:focus, [type=time]:active, select:focus, select:active, textarea:focus, textarea:active {
-  border: 1px solid #017093;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #8cbcfe;
-}
-
-textarea {
-  overflow: auto;
-  height: 4rem;
-}
-
-fieldset {
-  border: 1px solid #dedede;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
   border-radius: 4px;
-  padding: 1rem;
-  margin: 1.5rem 0;
+  box-sizing: border-box;
 }
 
-legend {
-  padding: 0 0.5rem;
-  font-weight: 600;
-}
-
-select {
-  color: #404040;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAYAAAA/33wPAAAAvklEQVQoFY2QMQqEMBBFv7ERa/EMXkGw11K8QbDXzuN4BHv7QO6ifUgj7v4UAdlVM8Uwf+b9YZJISnlqrfEUZVlinucnBGKaJgghbiHOyLyFKIoCbdvecpyReYvo/Ma2bajrGtbaC58kCdZ1RZ7nl/4/4d5EsO/7nzl7IUtodBexMMagaRrs+06JLMvcNWmaOv2W/C/TMAyD58dxROgSmvxFFMdxoOs6lliWBXEcuzokXRbRoJRyvqqqQvye+QDMDz1D6yuj9wAAAABJRU5ErkJggg==) right center no-repeat;
-  line-height: 1;
-}
-
-select::-ms-expand {
-  display: none;
-}
-
-[type='range'] {
+/* Style inputs */
+input[type=email], select {
   width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-label {
-  font-weight: 600;
-  max-width: 100%;
-  display: block;
-  margin: 1rem 0 0.5rem;
+textarea[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-@media (min-width: 600px) {
-  .split-form label {
-    text-align: right;
-    padding: 0 0.5rem;
-    margin-bottom: 1rem;
-  }
+/* Style the submit button */
+input[type=submit] {
+  width: 100%;
+  background-color: var(--link-color);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-input.has-error, input.has-error:hover, input.has-error:focus, input.has-error:active,
-select.has-error,
-select.has-error:hover,
-select.has-error:focus,
-select.has-error:active,
-textarea.has-error,
-textarea.has-error:hover,
-textarea.has-error:focus,
-textarea.has-error:active {
-  border: 1px solid #d33c40;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #f4cecf;
-}
-
-input.is-success, input.is-success:hover, input.is-success:focus, input.is-success:active,
-select.is-success,
-select.is-success:hover,
-select.is-success:focus,
-select.is-success:active,
-textarea.is-success,
-textarea.is-success:hover,
-textarea.is-success:focus,
-textarea.is-success:active {
-  border: 1px solid #29de7d;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #97efc0;
-}
-
-::-webkit-input-placeholder,
-::-moz-placeholder,
-:-moz-placeholder,
-:-ms-input-placeholder {
-  color: #9a9a9a;
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: var(--link-darker);
 }

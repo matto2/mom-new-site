@@ -27,7 +27,7 @@ title: contact
     </select></label>
   </p> -->
   <p>
-    <label>Message <textarea name="message"></textarea></label>
+    <label>Message <textarea name="message" type="text" ></textarea></label>
   </p>
   <p>
     <button class="round-button" type="submit">Send</button>
