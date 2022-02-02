@@ -432,3 +432,11 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: var(--link-darker);
 }
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-darker);
+}
