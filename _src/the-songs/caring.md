@@ -25,9 +25,8 @@ title: Caring
     </audio>
   </div>
 
-
-
-<!-- <pre style="word-wrap: break-word; white-space: pre-wrap;">CARING -->
+<span class="lyrics">
+<span class="chorus">
 
 **Chorus**<br />
 Sometimes it's time for me to care for you,<br />
@@ -35,6 +34,7 @@ Sometimes it's time for me to care for me.<br />
 Sometimes it's time to sit right back and<br />
 Let you come and care for me too.
 
+</span>
 
 Caring by noticing you just came in the door,<br />
 Noticing your jacket's new, or how your knee is sore;<br />
@@ -65,3 +65,4 @@ Look at me, and look at you, it's easy to be found.<br />
 
 #### Chorus
 
+</span>

@@ -455,3 +455,11 @@ a:hover {
 a.block {
   text-decoration: none;
 } 
+
+.lyrics {
+  font-size: 120%;
+}
+
+.chorus {
+  color: var(--link-color);
+}
