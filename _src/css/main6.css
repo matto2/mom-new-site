@@ -1,9 +1,10 @@
 :root {
-  --main-bg-color: antiquewhite;
+  --main-bg-color: #f5f2ec;
+  --darker-warm-light-gray: #e9e5dd;
   --main-font: 'Nunito', sans-serif;
   --main-font-italic: 'Nunito-Italic', sans-serif;
-  --main-text-color: #555;
-  --link-color: #0272A2;
+  --main-text-color: #444;
+  --link-color: #047a8f;
   --link-color-light: #5b95ad;
   --link-darker: #b33000;
   --text-ital: 0;
@@ -11,11 +12,16 @@
   --darkorange: darkorange;
   --light-gray: #aaa;
   --white: #ffffff;
+  --h1-big-text: 2.5rem;
 }
 
 body {
   background: var(--main-bg-color);
   margin: 0 1rem 0 1rem;
+}
+
+h1 {
+  font-size: var(--h1-big-text);
 }
 
 @font-face {
@@ -109,9 +115,10 @@ ul.nav .active a {
   /* background-color: gold; */
   }
 
-      blockquote{
+      blockquote {
+        border-radius: 1rem;
         display:block;
-        background: antiquewhite;
+        background: var(--darker-warm-light-gray);
         padding: 15px 20px 15px 45px;
         margin: 0 0 20px;
         position: relative;
@@ -119,7 +126,7 @@ ul.nav .active a {
         /*Font*/
         /* font-family: Georgia, serif; */
         font-size: 16px;
-        line-height: 1.2;
+        line-height: 1.4;
         color: var(--main-text-color);
         text-align: left;
         
@@ -234,7 +241,7 @@ ul.nav .active a {
       height: auto;
       min-width: 4rem;
       mix-blend-mode: multiply;
-      opacity: .9;
+      opacity: .93;
     }
   
     #song-table {
@@ -249,6 +256,20 @@ ul.nav .active a {
         "songs buttons";
         border-bottom: solid 1px var(--light-gray);
     }
+
+    #song-table2 {
+      display: grid;
+      grid-gap: 0rem;
+      align-items: center;
+      grid-template-columns: 1fr 2rem;
+      max-width: 60rem;
+      margin-left: auto;
+      margin-right: auto;
+      grid-template-areas:
+        "songs buttons";
+        /* border-bottom: solid 1px var(--light-gray); */
+    }
+    
     
     /* @media (max-width: 1000px) { */
       #song-table {
@@ -267,7 +288,32 @@ ul.nav .active a {
           "songs"
           "buttons"
       }
-    }    
+    }  
+    
+    /* @media (max-width: 1000px) { */
+      #song-table2 {
+        margin-left: 0rem;
+        grid-template-columns: 1fr 12rem;
+        grid-template-areas:
+          "songs buttons"
+        }
+    /* } */
+    
+    @media (max-width: 36rem) {
+      #song-table2 {
+        grid-template-columns: 1fr;
+        gap: 0;
+        grid-template-areas: 
+          "songs"
+          "buttons"
+      }
+    }  
+    
+    
+
+    
+
+
 
     .songs { 
       /* margin-top: 1rem; */
@@ -319,8 +365,8 @@ ul.nav .active a {
 }
 
 .button:focus, .button:active, a.button:focus, a.button:active, button:focus, button:active, [type=submit]:focus, [type=submit]:active, [type=reset]:focus, [type=reset]:active, [type=button]:focus, [type=button]:active {
-  border: 1px solid #0250bc;
-  background: #0250bc;
+  border: 1px solid var(--link-darker);
+  background: var(--link-darker);
   color: #ffffff;
   text-decoration: none;
 }
@@ -462,4 +508,22 @@ a.block {
 
 .chorus {
   font-weight: bolder;
+}
+
+.song-title2 {
+  margin-bottom: -.5rem;
+}
+
+.max-width {
+  max-width: 34rem;
+}
+
+.block img {
+  margin-top: .22rem;
+}
+
+audio {
+  border: 2px solid var(--link-color);
+  border-radius: 2rem;
+  /* background: var(--orangered); */
 }

@@ -13,10 +13,12 @@ title: Caring
 
 
 <div class="block">
-<img src="/img/arrow-left.svg"><a href="/the-songs">Back to all songs</a>
+<a href="/the-songs"><img src="/img/arrow-left.svg"></a><a href="/the-songs">All songs</a>
 </div>
 
-<h2 class="song-title">{{title}}</h2>
+<h1 class="song-title2">{{title}}</h1>
+
+### We benefit from both giving and receiving. ###
 
 <div>
     <audio controls="">
