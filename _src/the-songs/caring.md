@@ -18,7 +18,7 @@ title: Caring
 
 <h1 class="song-title2">{{title}}</h1>
 
-### We benefit from both giving and receiving. ###
+We benefit from both giving and receiving
 
 <div>
     <audio controls="">

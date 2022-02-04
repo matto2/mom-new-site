@@ -18,7 +18,7 @@ title: Most Valuable Player
 
 <h1 class="song-title2">{{title}}</h1>
 
-### We can be considerate (patient) competitors. ###
+We can be considerate (patient) competitors
 
 <div>
     <audio controls="">

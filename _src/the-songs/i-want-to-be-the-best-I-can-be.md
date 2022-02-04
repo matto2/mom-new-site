@@ -18,7 +18,7 @@ title: I Want To Be the Best I Can Be
 
 <h1 class="song-title2">{{title}}</h1>
 
-### We grow towards our potential through both individual and group effort. ###
+We grow towards our potential through both individual and group effort
 
 <div>
     <audio controls="">

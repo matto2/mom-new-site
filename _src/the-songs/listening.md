@@ -17,7 +17,7 @@ title: Listening
 
 <h1 class="song-title2">{{title}}</h1>
 
-### We experience and show understanding, awareness, and caring through listening. ###
+We experience and show understanding, awareness, and caring through listening
 
 <div>
     <audio controls="">
