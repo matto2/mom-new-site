@@ -522,8 +522,9 @@ a.block {
   margin-top: .22rem;
 }
 
+/* 
 audio {
   border: 2px solid var(--link-color);
   border-radius: 2rem;
-  /* background: var(--orangered); */
+  background: var(--orangered); */
 }
