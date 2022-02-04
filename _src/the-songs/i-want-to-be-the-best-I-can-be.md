@@ -69,3 +69,8 @@ We want to be the best we can be,
 We want to be who we are.  
 
 </span>
+
+<div class="right">
+<a href="/the-songs/listening">Next song</a>
+<a href="/the-songs/listening"><img src="/img/arrow-right.svg"></a>
+</div>

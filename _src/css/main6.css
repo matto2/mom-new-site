@@ -502,6 +502,10 @@ a.block {
   text-decoration: none;
 } 
 
+.block img {
+  margin-top: .22rem;
+}
+
 .lyrics {
   font-size: 110%;
 }
@@ -518,13 +522,32 @@ a.block {
   max-width: 34rem;
 }
 
-.block img {
-  margin-top: .22rem;
-}
+
 
 /* 
 audio {
   border: 2px solid var(--link-color);
   border-radius: 2rem;
-  background: var(--orangered); */
+  background: var(--orangered); 
+}
+*/
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 2rem;
+  align-items: center;
+  font-size: bigger;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: right;
+}
+
+
+a.right {
+  text-decoration: none;
+} 
+
+
+.right img {
+  margin-top: .22rem;
 }

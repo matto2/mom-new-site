@@ -67,3 +67,8 @@ And that old familiar shout:<br/>
 **Chorus**
 
 </span>
+
+<div class="right">
+<a href="/the-songs/i-want-to-be-the-best-I-can-be">Next song</a>
+<a href="/the-songs/i-want-to-be-the-best-I-can-be"><img src="/img/arrow-right.svg"></a>
+</div>

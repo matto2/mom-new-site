@@ -76,3 +76,8 @@ I’ll come out a winner.
 Always win the game.**
 
 </span>
+
+<div class="right">
+<a href="/the-songs/put-down-blues">Next song</a>
+<a href="/the-songs/put-down-blues"><img src="/img/arrow-right.svg"></a>
+</div>

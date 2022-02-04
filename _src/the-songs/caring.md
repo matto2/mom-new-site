@@ -68,3 +68,8 @@ Look at me, and look at you, it's easy to be found.<br />
 #### Chorus
 
 </span>
+
+<div class="right">
+<a href="/the-songs/come-along">Next song</a>
+<a href="/the-songs/come-along"><img src="/img/arrow-right.svg"></a>
+</div>

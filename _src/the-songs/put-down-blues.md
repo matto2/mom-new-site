@@ -57,3 +57,8 @@ Try it one more time.
 **Chorus**
 
 </span>
+
+<div class="right">
+<a href="/the-songs/shine-like-a-star">Next song</a>
+<a href="/the-songs/shine-like-a-star"><img src="/img/arrow-right.svg"></a>
+</div>

@@ -55,3 +55,8 @@ Me know you've understood.
 **Chorus**
 
 </span>
+
+<div class="right">
+<a href="/the-songs/most-valuable-player">Next song</a>
+<a href="/the-songs/most-valuable-player"><img src="/img/arrow-right.svg"></a>
+</div>

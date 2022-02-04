@@ -60,3 +60,8 @@ I can be **fun** and **honest** too.
 _*Any word describing a positive characteristic may be used in place of the **bold** words._
 
 </span>
+
+<div class="right">
+<a href="/the-songs/treasure-chests">Next song</a>
+<a href="/the-songs/treasure-chests"><img src="/img/arrow-right.svg"></a>
+</div>

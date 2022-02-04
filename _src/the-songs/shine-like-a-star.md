@@ -61,3 +61,8 @@ A place to grow; a place to dream.
 **Chorus**
 
 </span>
+
+<div class="right">
+<a href="/the-songs/the-nicest-person">Next song</a>
+<a href="/the-songs/the-nicest-person"><img src="/img/arrow-right.svg"></a>
+</div>
