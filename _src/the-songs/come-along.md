@@ -18,7 +18,7 @@ title: Come Along
 
 <h1 class="song-title2">{{title}}</h1>
 
-**Theme:** Each of us is important to the rest of us
+Each of us is important to the rest of us
 
 <div>
     <audio controls="">
