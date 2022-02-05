@@ -129,10 +129,14 @@ Sheet music is in standard notation (piano, vocal, and chords). Includes separat
 <h2 class="song-titles">Complete Song Book</h2>
     </div>
         <div class="buttons">
-            <a href="https://buy.stripe.com/dR616S290aUJ0aA28h"><button class="round-button">Buy Sheet Music</button></a>
-    </div>
-   </div> 
+            <a href="https://mattoleary.gumroad.com/l/kphta"><button class="round-button">Buy Sheet Music</button></a>
 
+<!-- <a class="gumroad-button" href="https://mattoleary.gumroad.com/l/kphta">Buy Sheet Music</a> -->
+
+   </div> 
+    </div>
+
+ 
 
 
 
