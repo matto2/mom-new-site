@@ -16,12 +16,12 @@ title: The Songs
 
 <!-- ## Words & Music by Minnie O'Leary ## -->
 
-<p class="max-width">
+<p>
 Audio tracks were recorded circa 1980 with Minnie on  piano, her daughter Jenny on vocals, and sister Cookie on guitar and vocals.
 </p>
 
-<p class="max-width">
-Sheet music is in standard notation (piano, vocal, and chords). Includes separate lyrics-only page. Printable PDF will be emailed upon purchase. <br/><strong>Single song: $4 / Complete songbook: $24</strong>
+<p>
+The sheet music comes in digital format (Printable PDF) and has standard notation: piano, vocal, and chords. All songs include a separate, lyrics-only page. Can be downloaded immediately upon purchase. <strong>Single song: $4 / Complete songbook: $16</strong>
 </p>
 
 
@@ -129,7 +129,7 @@ Sheet music is in standard notation (piano, vocal, and chords). Includes separat
 <h2 class="song-titles">Complete Song Book</h2>
     </div>
         <div class="buttons">
-            <a href="https://mattoleary.gumroad.com/l/kphta"><button class="round-button">Buy Sheet Music</button></a>
+            <a href="https://olearystudios.ck.page/products/come-along-songs-sheet-music-all"><button class="round-button">Buy Sheet Music</button></a>
 
 <!-- <a class="gumroad-button" href="https://mattoleary.gumroad.com/l/kphta">Buy Sheet Music</a> -->
 

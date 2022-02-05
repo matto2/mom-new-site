@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("_src/music/");
     eleventyConfig.addPassthroughCopy("_src/img/");
     eleventyConfig.addPassthroughCopy("_src/js/");
+    eleventyConfig.addPassthroughCopy("_src/pdfs/");
     eleventyConfig.addPassthroughCopy("_src/.well-known/");
     eleventyConfig.addPassthroughCopy("_src/android-chrome-192x192.png");
     eleventyConfig.addPassthroughCopy("_src/apple-touch-icon.png");
