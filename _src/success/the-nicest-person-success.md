@@ -1,6 +1,6 @@
 ---
 layout: base
-title: I Want To Be The Best I Can Be
+title: The Nicest Person
 ---
 
 
@@ -12,9 +12,9 @@ title: I Want To Be The Best I Can Be
 You purchased {{ title }} 
 
 <div class="buttons-centered">
-<a href="/pdfs/i-want-to-be-the-best-i-can-be.pdf">
-
-<button class="round-button2">Download PDF</button></a>
+<a href="/pdfs/the-nicest-person.pdf">
+<button class="round-button2">Download PDF</button>
+</a>
 
 If the PDF displays in your browser window, be sure to save/download the file to your device. If on mobile, you can click the share icon and email to yourself. You can also copy and save the URL to retrieve later.
 

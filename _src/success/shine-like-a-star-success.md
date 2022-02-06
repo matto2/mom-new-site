@@ -1,6 +1,6 @@
 ---
 layout: base
-title: I Want To Be The Best I Can Be
+title: Shine Like a Star
 ---
 
 
@@ -12,7 +12,7 @@ title: I Want To Be The Best I Can Be
 You purchased {{ title }} 
 
 <div class="buttons-centered">
-<a href="/pdfs/i-want-to-be-the-best-i-can-be.pdf">
+<a href="/pdfs/shine-like-a-star.pdf">
 
 <button class="round-button2">Download PDF</button></a>
 

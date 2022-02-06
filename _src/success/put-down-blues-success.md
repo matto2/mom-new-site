@@ -1,6 +1,6 @@
 ---
 layout: base
-title: I Want To Be The Best I Can Be
+title: Put Down Blues
 ---
 
 
@@ -12,7 +12,7 @@ title: I Want To Be The Best I Can Be
 You purchased {{ title }} 
 
 <div class="buttons-centered">
-<a href="/pdfs/i-want-to-be-the-best-i-can-be.pdf">
+<a href="/pdfs/put-down-blues.pdf">
 
 <button class="round-button2">Download PDF</button></a>
 
