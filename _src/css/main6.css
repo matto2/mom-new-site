@@ -325,6 +325,12 @@ ul.nav .active a {
       text-align: end;
     }
 
+    .buttons-centered {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
     .song-titles {
       /* margin-bottom: -.5rem; */
     }
@@ -412,6 +418,16 @@ a.muted-button:active {
 a.round-button {
   border-radius: 40px;
 }
+
+.round-button2,
+a.round-button2 {
+  border-radius: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 .square-button,
 a.square-button {
@@ -550,4 +566,16 @@ a.right {
 
 .right img {
   margin-top: .22rem;
+}
+
+.big-card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  vertical-align: middle;
+  height: auto%;
+  background: var(--white);
+  border-radius: 2rem;
+  text-align: center;
+  padding: 3rem 0 3rem 0;
 }
