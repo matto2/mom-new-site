@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Caring
+title: Most Valuable Player
 ---
 
 
@@ -12,7 +12,7 @@ title: Caring
 You purchased {{ title }} 
 
 <div class="buttons-centered">
-<a href="/pdfs/caring.pdf">
+<a href="/pdfs/most-valuable-player.pdf">
 
 <button class="round-button2">Download PDF</button></a>
 

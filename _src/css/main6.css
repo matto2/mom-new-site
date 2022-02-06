@@ -325,12 +325,6 @@ ul.nav .active a {
       text-align: end;
     }
 
-    .buttons-centered {
-      margin-top: 1.5rem;
-      margin-bottom: 1rem;
-      text-align: center;
-    }
-
     .song-titles {
       /* margin-bottom: -.5rem; */
     }
@@ -577,5 +571,14 @@ a.right {
   background: var(--white);
   border-radius: 2rem;
   text-align: center;
-  padding: 3rem 0 3rem 0;
+  padding: 3rem 3rem 3rem 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.buttons-centered {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+
 }

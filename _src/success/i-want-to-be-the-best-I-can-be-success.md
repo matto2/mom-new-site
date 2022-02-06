@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Caring
+title: I Want To Be The Best I Can Be
 ---
 
 
@@ -12,7 +12,7 @@ title: Caring
 You purchased {{ title }} 
 
 <div class="buttons-centered">
-<a href="/pdfs/caring.pdf">
+<a href="/pdfs/i-want-to-be-the-best-i-can-be.pdf">
 
 <button class="round-button2">Download PDF</button></a>
 

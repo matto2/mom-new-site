@@ -55,10 +55,10 @@ The sheet music comes in digital format (Printable PDF) and has standard notatio
 
    <div id="song-table">
      <div class="songs">
-<h2 class="song-titles"><a href="/the-songs/i-want-to-be-the-best-I-can-be">I Want To Be The Best I Can Be</a></h2>
+<h2 class="song-titles"><a href="/the-songs/i-want-to-be-the-best-i-can-be">I Want To Be The Best I Can Be</a></h2>
     </div>
         <div class="buttons">
-            <a href="/the-songs/i-want-to-be-the-best-I-can-b"><button class="round-button">Listen</button></a>
+            <a href="/the-songs/i-want-to-be-the-best-i-can-b"><button class="round-button">Listen</button></a>
             <a href="https://buy.stripe.com/28obLw4h8e6V9La9AC"><button class="round-button">Buy Sheet Music</button></a>
     </div>
    </div> 
