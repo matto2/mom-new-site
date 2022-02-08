@@ -12,7 +12,7 @@ title: contact
     </ul>
   </nav>
 
-## Please contact me with any questions or comments
+### Questions or comments? Please reach out via form below or send regular email
 
 <div class="form">
 <form name="contact" method="POST" data-netlify="true">
