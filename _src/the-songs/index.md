@@ -20,9 +20,9 @@ title: The Songs
 Audio tracks were recorded circa 1980 with Minnie on  piano, her daughter Jenny on vocals, and sister Cookie on guitar and vocals.
 </p>
 
-<p>
-The sheet music comes in digital format (Printable PDF) and has standard notation: piano, vocal, and chords. All songs include a separate, lyrics-only page. Can be downloaded immediately upon purchase. <strong>Single song: $4 / Complete songbook: $16</strong>
-</p>
+Sheet music is provided in a digital format (printable PDF) and comes in standard piano, vocal, and chords notation (see a preview <a href="preview">here</a>). Each song includes a separate, lyrics-only page. Available to downloaded immediately upon purchase.
+<br/><strong>Single song: $4 / Complete songbook: $16</strong>
+</br>
 
 
   <ul>
@@ -129,7 +129,7 @@ The sheet music comes in digital format (Printable PDF) and has standard notatio
 <h2 class="song-titles">Complete Song Book</h2>
     </div>
         <div class="buttons">
-            <a href="https://buy.stripe.com/dR616S290aUJ0aA28h"><button class="round-button">Buy Sheet Music</button></a>
+            <a href="https://buy.stripe.com/4gwg1M6pgbYN7D2eV4"><button class="round-button">Buy Sheet Music</button></a>
 
 <!-- <a class="gumroad-button" href="https://mattoleary.gumroad.com/l/kphta">Buy Sheet Music</a> -->
 
