@@ -37,4 +37,4 @@ title: contact
 </form>
 </div>
 <!-- <p>Or send regular <a href="mailto:mattosurf@gmail.com?subject=minnie%20music">email</a> -->
-<p class="smaller">This site was made by <a href="https://olearystudios.com">Matt O'Leary</a> with help from <a href="https://eleventy.dev"> eleventy.js</a> and a lot of googling.
+<p class="smaller">This site was made by <a href="https://olearystudios.com">Matt O'Leary</a>. <strong>Mini-colophon:</strong> SSG (static site generator): <a href="https://eleventy.dev"> eleventy</a>, body fonts: <a href="https://fonts.google.com/specimen/Nunito">Nunito</a>, payment processing: <a href="Stripe">Stripe</a>.

@@ -497,6 +497,7 @@ a {
 
 a:hover {
   color: var(--link-darker);
+  text-decoration: underline;
 }
 
 .block {
