@@ -12,7 +12,7 @@ title: contact
     </ul>
   </nav>
 
-### Questions or comments? Please reach out via form below or send regular email
+### Questions or comments? Use the form below or send a regular <a href="mailto:mattosurf@gmail.com?subject=minnie%20music">email</a>
 
 <div class="form">
 <form name="contact" method="POST" data-netlify="true">
@@ -36,4 +36,5 @@ title: contact
   </p>
 </form>
 </div>
-<p>Or send regular <a href="mailto:mattosurf@gmail.com?subject=minnie%20music">email</a>
+<!-- <p>Or send regular <a href="mailto:mattosurf@gmail.com?subject=minnie%20music">email</a> -->
+<p class="smaller">This site was made by <a href="https://olearystudios.com">Matt O'Leary</a> with help from <a href="https://eleventy.dev"> eleventy.js</a> and a lot of googling.
