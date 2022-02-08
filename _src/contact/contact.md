@@ -12,6 +12,8 @@ title: contact
     </ul>
   </nav>
 
+## Please contact me with any questions or comments
+
 <div class="form">
 <form name="contact" method="POST" data-netlify="true">
   <p>
