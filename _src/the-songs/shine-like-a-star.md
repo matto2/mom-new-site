@@ -12,7 +12,7 @@ title: Shine Like a Star
 
 
 <div class="block">
-<a href="/the-songs"><img src="/img/arrow-left.svg"></a><a href="/the-songs">Songs</a>
+<a href="/the-songs"><img src="/img/arrow-left.svg"></a><a href="/the-songs">All songs</a>
 </div>
 
 <h1 class="song-title2">{{title}}</h1>
