@@ -21,7 +21,8 @@ Audio tracks were recorded circa 1980 with Minnie on  piano, her daughter Jenny 
 </p>
 
 Sheet music is provided in digital format (printable PDF) and comes in standard piano, vocal, and chords notation (see a <a href="preview">preview</a>). Each song includes a separate, lyrics-only page. Available to downloaded immediately upon purchase.
-<br/><strong>Single song: $4 / Complete (9 songs) songbook: $16</strong>
+<br/><strong>Single song: $4 / <a href="https://buy.stripe.com/4gwg1M6pgbYN7D2eV4">Complete (9 songs) songbook: $16</a>
+</strong>
 </br>
 
 
@@ -135,6 +136,7 @@ Sheet music is provided in digital format (printable PDF) and comes in standard 
 
    </div> 
     </div>
+
 
  
 
