@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #f5f2ec;
+  --main-bg-color: #fcfbf8;
   --darker-warm-light-gray: #e9e5dd;
   --main-font: 'Nunito', sans-serif;
   --main-font-italic: 'Nunito-Italic', sans-serif;
@@ -126,7 +126,7 @@ ul.nav .active a {
         
         /*Font*/
         /* font-family: Georgia, serif; */
-        font-size: 16px;
+        font-size: 1.2rem;
         line-height: 1.4;
         color: var(--main-text-color);
         text-align: left;

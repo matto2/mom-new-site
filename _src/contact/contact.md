@@ -3,7 +3,6 @@ layout: base
 title: contact
 ---
 
-
 <nav>
     <ul class="nav">
       <li><a href="/">Home</a></li>
@@ -37,5 +36,5 @@ title: contact
 </form>
 </div>
 <!-- <p>Or send regular <a href="mailto:mattosurf@gmail.com?subject=minnie%20music">email</a> -->
-<p class="smaller">Site design/dev: <a href="https://olearystudios.com">Matt O'Leary</a>, SSG (static site generator): <a href="https://eleventy.dev"> Eleventy</a>, font: <a href="https://fonts.google.com/specimen/Nunito">Nunito</a>, payment processing: <a href="Stripe">Stripe</a>.
-<p><a href="https://www.buymeacoffee.com/bBrGCiohd">Buy me a coffee</a></p>
+<p class="smaller">Site design/dev: <a href="https://mattoleary.design/">Matt O'Leary</a>, SSG (static site generator): <a href="https://eleventy.dev"> Eleventy</a>, font: <a href="https://fonts.google.com/specimen/Nunito">Nunito</a>, payment processing: <a href="Stripe">Stripe</a>.
+<!-- <p><a href="https://www.buymeacoffee.com/bBrGCiohd">Buy me a coffee</a></p> -->
