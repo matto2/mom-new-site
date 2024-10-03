@@ -4,8 +4,8 @@
   --main-font: 'Nunito', sans-serif;
   --main-font-italic: 'Nunito-Italic', sans-serif;
   --main-text-color: #444;
-  --link-color: #047a8f;
-  --link-color-light: #5b95ad;
+  --link-color: #069abb;
+  --link-color-light: #069abb;
   --link-darker: #b33000;
   --text-ital: 0;
   --orangered: orangered;
@@ -85,6 +85,8 @@ footer {
 
 nav { 
   display: grid;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 ul.nav {
